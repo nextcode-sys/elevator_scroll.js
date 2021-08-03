@@ -39,7 +39,7 @@ elevatorScrollはシンプル且つデザイン性の高いWEBサイトを作成
 
 ### Install
 <details>
-<summary>elevatorScrollのファイルをインストールして使用する場合、</summary>>
+<summary>elevatorScrollのファイルをインストールして使用する場合</summary>>
 __elevator_scroll.js__, __elevator_scroll.css__ の2つのファイルをインストールした後、
 以下のように読み込みします。
 
