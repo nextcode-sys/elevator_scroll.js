@@ -1,4 +1,4 @@
-#elevatorScroll
+# elevatorScroll
 
 ---
 
@@ -35,9 +35,9 @@ elevatorScrollはシンプル且つデザイン性の高いWEBサイトを作成
 
 ---
 
-##導入方法
+## 導入方法
 
-###Install
+### Install
 <details>
 <summary>elevatorScrollのファイルをインストールして使用する場合、</summary>>
 __elevator_scroll.js__, __elevator_scroll.css__ の2つのファイルをインストールした後、
@@ -50,7 +50,7 @@ __elevator_scroll.js__, __elevator_scroll.css__ の2つのファイルをイン�
 
 </details>
 
-###CDN
+### CDN
 <details>
 <summary>CDNを使用してファイルのロードを行う場合</summary>
 
@@ -58,7 +58,7 @@ __elevator_scroll.js__, __elevator_scroll.css__ の2つのファイルをイン�
 
 ---
 
-##HTML構造
+## HTML構造
 
 <details>
 <summary>elevatorScrollには独自のクラスがあり、</summary>
@@ -86,7 +86,7 @@ es-sectionの中にhtmlを記述していく事で左右にその中身が表示
 
 ---
 
-##elevatorScroll初期設定
+## elevatorScroll初期設定
 
 <details>
 
@@ -109,11 +109,11 @@ sectionsNameにセクション数と同じ数のセクション名を設定し�
 
 ---
 
-##オプション
+## オプション
 
 様々なオプションを設定できます。
 
-###sectionsColor
+### sectionsColor
 <details>
 
 <summary>セクションごとに背景色を設定できます。</summary>
@@ -126,7 +126,7 @@ var obj = new elevator_scroll('#elevator_scroll', {
 
 </details>
 
-###menu
+### menu
 <details>
 
 <summary>ヘッダーナビゲーションにリンク機能を追加できます。</summary>
@@ -152,7 +152,7 @@ var obj = new elevator_scroll('#elevator_scroll', {
 
 </details>
 
-###activeMenu
+### activeMenu
 <details>
 <summary>現在のセクション位置のナビゲーションliタグにactiveクラスを付与できます。</summary>
 
@@ -165,7 +165,7 @@ var obj = new elevator_scroll('#elevator_scroll', {
 ```
 </details>
 
-###animateSpeed
+### animateSpeed
 <details>
 
 <summary>スクロールアニメーションの速さを設定できます。</summary>
@@ -179,7 +179,7 @@ var obj = new elevator_scroll('#elevator_scroll', {
 
 </details>
 
-###wheelDelta
+### wheelDelta
 <details>
 <summary>スクロールに必要なマウスホイールの回転量を設定</summary>
 
@@ -193,7 +193,7 @@ var obj = new elevator_scroll('#elevator_scroll', {
 
 </details>
 
-###touchMove
+### touchMove
 <details>
 <summary>スクロールに必要なスマートフォンのスワイプ量を設定</summary>
 
