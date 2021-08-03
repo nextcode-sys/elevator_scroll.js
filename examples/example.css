@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav {
+    display: flex;
+    position: fixed;
+    z-index: 999;
+    padding: 1em;
+}
+
+#nav .active a {
+    background-color: #ffffff;
+}
+
+#nav a {
+    color: #000000;
+    padding: 1em;
+    background-color: #ffffff85;
+    margin: 0 1em;
+    border-radius: 10px;
+}
+
+#nav a:hover {
+    background-color: #ffffff;
+}
+
+h1 {
+    margin: 0;
+}
+
+.fullscreen-left {
+    position: relative;
+}
+
+.example .section-inner, .splitscreen .section-inner, .fullscreen .section-inner {
+    height: 100vh;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.example .section-inner, .splitscreen .section-inner {
+    width: 50vw;
+}
+
+.splitscreen .overflow .section-inner {
+    padding: 5em 0;
+}
+
+.fullscreen .section-inner {
+    width: 100vw;
+}
+
+.fullscreen .section-inner h1, .fullscreen .section-inner p {
+    padding: 3em 0;
+}
+
+.overflow-x .section-inner {
+    padding: 3em 0;
+    text-align: center;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.slider-container {
+    position: relative;
+    height: 50vh;
+}
+
+.slider, .slider ul li {
+    width: 70vw;
+    height: 50vh;
+}
+
+.slider {
+    overflow: hidden;
+    display: flex;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slider ul {
+    display: flex;
+}
+
+.slider ul li:nth-child(1) {
+    background-color: #000000;
+}
+
+.slider ul li:nth-child(2) {
+    background-color: #1b00ff;
+}
+
+.slider ul li:nth-child(3) {
+    background-color: #a94e4e;
+}
+
+.slider-container .prev-btn, .slider-container .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.slider-container .prev-btn {
+    left: 10%;
+}
+
+.slider-container .next-btn {
+    right: 10%;
+}
+
+.pagination {
+    position: absolute;
+    bottom: -3em;
+    left: 50%;
+    transform: translateX(-50%);}
+
+.pagination ul {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.pagination ul li {
+    margin: 1em;
+}
+
+.pageList {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000000;
+    cursor: pointer;
+}

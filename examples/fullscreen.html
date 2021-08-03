@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>elevatorScroll -example-</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="/elevator_scroll.css">
+	<link rel="stylesheet" type="text/css" href="/examples/example.css">
+</head>
+<body class="fullscreen">
+
+<ul id="nav">
+	<li><a href="#section1">FULL SCREEN</a></li>
+	<li><a href="#section2">FULL SCREEN(OverFlowY)</a></li>
+	<li><a href="#section3">FULL SCREEN(OverFlowX)</a></li>
+</ul>
+
+<div id="elevator_scroll">
+
+	<div class="es-left">
+		<div class="es-section" data-fullscreen="true">
+			<div class="section-inner">
+				<h1>FULL SCREEN</h1>
+			</div>
+		</div>
+		<div class="es-section" data-fullscreen="true">
+			<div class="section-inner">
+				<h1>FULL SCREEN( OverFlowY )</h1>
+				<p>start</p>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				<p>END</p>
+			</div>
+		</div>
+		<div class="es-section overflow-x" data-fullscreen="true">
+			<div class="section-inner">
+				<h1>FULL SCREEN( OverFlowX )</h1>
+				<div class="slider-container">
+					<div class="slider">
+						<ul>
+							<li><h2>スライド1</h2></li>
+							<li><h2>スライド2</h2></li>
+							<li><h2>スライド3</h2></li>
+						</ul>
+					</div>
+					<div class="prev-btn">
+						<<
+					</div>
+					<div class="next-btn">
+						>>
+					</div>
+					<div class="pagination">
+						<ul>
+							<li><a class="pageList"></a></li>
+							<li><a class="pageList"></a></li>
+							<li><a class="pageList"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+
+
+		</div>
+	</div>
+
+	<div class="es-right">
+		<div class="es-section">
+			<div class="section-inner">
+				<h1>FULL SCREEN</h1>
+			</div>
+		</div>
+		<div class="es-section">
+			<div class="section-inner">
+				<h1>FULL SCREEN( OverFlowY )</h1>
+				<p>start</p>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				↓<br>
+				<p>END</p>
+			</div>
+		</div>
+		<div class="es-section overflow-x">
+			<div class="section-inner">
+				<h1>FULL SCREEN( OverFlowX )</h1>
+				<div class="slider-container">
+					<div class="slider">
+						<ul>
+							<li><h2>スライド1</h2></li>
+							<li><h2>スライド2</h2></li>
+							<li><h2>スライド3</h2></li>
+						</ul>
+					</div>
+					<div class="prev-btn">
+						<<
+					</div>
+					<div class="next-btn">
+						>>
+					</div>
+					<div class="pagination">
+						<ul>
+							<li><a class="pageList"></a></li>
+							<li><a class="pageList"></a></li>
+							<li><a class="pageList"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<script type="text/javascript" src="/elevator_scroll.js"></script>
+<script>
+	var obj = new elevator_scroll('#elevator_scroll', {
+		sectionsName: ['section1', 'section2', 'section3'],
+		sectionsColor: ['#6e5aff', '#f8b500', '#53beb7'],
+		menu:'#nav',
+		activeMenu: ['section1', 'section2', 'section3']
+	});
+
+	slider = document.querySelector('.slider');
+	sliderWidth = slider.clientWidth;
+	slide = slider.querySelector('ul');
+	prev = document.querySelector('.prev-btn');
+	next = document.querySelector('.next-btn');
+	let sliderIndex = 0;
+
+	prev.onclick = function () {
+		if ( sliderIndex >= 0 && sliderIndex <= 3 ) {
+			if ( sliderIndex === 0 ) {
+				sliderIndex = 2;
+				slide.style.transform = "translateX(" + -sliderWidth * sliderIndex + "px)";
+			} else {
+				sliderIndex--;
+				slide.style.transform = "translateX(" + -sliderWidth * sliderIndex + "px)";
+			}
+		}
+	}
+	next.onclick = function () {
+		if ( sliderIndex >= 0 && sliderIndex <= 2 ) {
+			if ( sliderIndex === 2 ) {
+				sliderIndex = 0;
+				slide.style.transform = "translateX(" + -sliderWidth * sliderIndex + "px)";
+			} else {
+				sliderIndex++;
+				slide.style.transform = "translateX(" + -sliderWidth * sliderIndex + "px)";
+			}
+		}
+	}
+
+	pagination = document.querySelector('.pagination');
+	paginationLists = pagination.querySelectorAll('a');
+
+	for ( let i=0; i < paginationLists.length; i++ ) {
+		paginationLists[i].onclick = function () {
+			sliderIndex = [i];
+			slide.style.transform = "translateX(" + -sliderWidth * sliderIndex + "px)";
+		}
+	}
+
+
+
+
+
+	sliderList = slider.querySelectorAll('li');
+	pagination = document.querySelector('.pagination');
+	pagination.append()
+
+</script>
+</body>
+</html>
