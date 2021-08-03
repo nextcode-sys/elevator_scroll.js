@@ -116,7 +116,7 @@ sectionsNameにセクション数と同じ数のセクション名を設定し�
 ### sectionsColor
 <details>
 
-<summary>セクションごとに背景色を設定できます。</summary>
+<summary>各セクションごとに背景色を設定</summary>
 
 ```javascript
 var obj = new elevator_scroll('#elevator_scroll', {
@@ -129,7 +129,7 @@ var obj = new elevator_scroll('#elevator_scroll', {
 ### menu
 <details>
 
-<summary>ヘッダーナビゲーションにリンク機能を追加できます。</summary>
+<summary>ヘッダーナビゲーションにリンク機能追加</summary>
 html
 
 ```html
@@ -154,7 +154,7 @@ var obj = new elevator_scroll('#elevator_scroll', {
 
 ### activeMenu
 <details>
-<summary>現在のセクション位置のナビゲーションliタグにactiveクラスを付与できます。</summary>
+<summary>現在のセクション位置のナビゲーションliタグにactiveクラスを付与</summary>
 
 ```javascript
 var obj = new elevator_scroll('#elevator_scroll', {
@@ -168,7 +168,7 @@ var obj = new elevator_scroll('#elevator_scroll', {
 ### animateSpeed
 <details>
 
-<summary>スクロールアニメーションの速さを設定できます。</summary>
+<summary>スクロールアニメーションの速度を設定</summary>
 
 ```javascript
 var obj = new elevator_scroll('#elevator_scroll', {
