@@ -29,7 +29,7 @@ elevatorScrollはシンプル且つデザイン性の高いWEBサイトを作成
 
 * [HTML構造]()
 
-* [elevatorScroll初期設定]()
+* [elevatorScroll初期設定](https://github.com/nextcode-sys/elevator_scroll/blob/main/README.md#elevatorscroll%E5%88%9D%E6%9C%9F%E8%A8%AD%E5%AE%9A)
 
 * [オプション](https://github.com/nextcode-sys/elevator_scroll/blob/main/README.md#%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3)
 
