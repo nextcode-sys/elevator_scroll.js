@@ -38,8 +38,7 @@ elevatorScrollはシンプル且つデザイン性の高いWEBサイトを作成
 ## 導入方法
 
 ### Install
-<details>
-<summary>elevatorScrollのファイルをインストールして使用する場合、</summary>>
+elevatorScrollのファイルをインストールして使用する場合、
 __elevator_scroll.js__, __elevator_scroll.css__ の2つのファイルをインストールした後、
 以下のように読み込みします。
 
@@ -48,20 +47,14 @@ __elevator_scroll.js__, __elevator_scroll.css__ の2つのファイルをイン�
 <script type = "text/javascript" src = "elevator_scroll.js">
 ```
 
-</details>
-
 ### CDN
-<details>
-<summary>CDNを使用してファイルのロードを行う場合</summary>
-
-</details>
+CDNを使用してファイルのロードを行う場合
 
 <br>
 
 ## HTML構造
 
-<details>
-<summary>elevatorScrollには独自のクラスがあり、</summary>
+elevatorScrollには独自のクラスがあり、
 es-left, es-rightは画面を左右に分けるクラスで
 その子要素にes-sectionというクラスを付与します。
 es-sectionの中にhtmlを記述していく事で左右にその中身が表示されていきます。
@@ -82,7 +75,6 @@ es-sectionの中にhtmlを記述していく事で左右にその中身が表示
 	</div>
 </div>
 ```
-</details>
 
 <br>
 
