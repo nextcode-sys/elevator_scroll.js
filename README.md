@@ -33,13 +33,13 @@ elevatorScrollはシンプル且つデザイン性の高いWEBサイトを作成
 
 * [オプション]()
 
----
+<br>
 
 ## 導入方法
 
 ### Install
 <details>
-<summary>ファイルをインストールして使用する場合</summary>>
+<summary>elevatorScrollのファイルをインストールして使用する場合、</summary>>
 __elevator_scroll.js__, __elevator_scroll.css__ の2つのファイルをインストールした後、
 以下のように読み込みします。
 
@@ -56,7 +56,7 @@ __elevator_scroll.js__, __elevator_scroll.css__ の2つのファイルをイン�
 
 </details>
 
----
+<br>
 
 ## HTML構造
 
@@ -84,13 +84,13 @@ es-sectionの中にhtmlを記述していく事で左右にその中身が表示
 ```
 </details>
 
----
+<br>
 
 ## elevatorScroll初期設定
 
 <details>
 
-<summary>初期設定は必須でありscriptタグ内に記述していきます。</summary>
+<summary>初期設定は必須でありscriptタグ内に記述していきます</summary>
 
 以下がサンプルコードです。
 
@@ -107,11 +107,11 @@ sectionsNameにセクション数と同じ数のセクション名を設定し�
 
 </details>
 
----
+<br>
 
 ## オプション
 
-様々なオプションを設定できます。
+各種オプションの設定方法
 
 ### sectionsColor
 <details>
