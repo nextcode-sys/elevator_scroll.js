@@ -59,7 +59,7 @@ es-left, es-rightは画面を左右に分けるクラスで
 その子要素にes-sectionというクラスを付与します。
 es-sectionの中にhtmlを記述していく事で左右にその中身が表示されていきます。
 
-以下がサンプルコードになります。
+以下はサンプルコード
 
 ```html
 <div id="elevator_scroll">
@@ -80,11 +80,9 @@ es-sectionの中にhtmlを記述していく事で左右にその中身が表示
 
 ## elevatorScroll初期設定
 
-<details>
+初期設定は必須でありscriptタグ内に記述していきます
 
-<summary>初期設定は必須でありscriptタグ内に記述していきます</summary>
-
-以下がサンプルコードです。
+以下はサンプルコード
 
 ```javascript
 <script>
@@ -96,8 +94,6 @@ es-sectionの中にhtmlを記述していく事で左右にその中身が表示
 
 インスタンスを生成、elevatorScrollの要素を引数に渡し、
 sectionsNameにセクション数と同じ数のセクション名を設定します。
-
-</details>
 
 <br>
 
