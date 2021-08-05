@@ -8,9 +8,9 @@
 
 * [デモページ]()
 
-* [導入例]()
+* [導入実績サイト(LEVELS DENTAL TEAM)](https://levelsdentalteam.com/)
 
-* [FAQ]()
+* [お問い合わせ](https://next-code.jp/contact/)
 
 ---
 
@@ -87,8 +87,8 @@ es-sectionの中にhtmlを記述していく事で左右にその中身が表示
 ```javascript
 <script>
 	var obj = new elevator_scroll('#elevator_scroll', {
-		sectionsName: ['section1', 'section2', 'section3']
-	});
+	sectionsName: ['section1', 'section2', 'section3']
+});
 </script>
 ```
 
@@ -122,11 +122,11 @@ html
 
 ```html
 <header>
-    <ul id="nav">
-        <li><a href="#section1">セクション1</a></li>
-        <li><a href="#section2">セクション2</a></li>
-        <li><a href="#section3">セクション3</a></li>
-    </ul>
+	<ul id="nav">
+		<li><a href="#section1">セクション1</a></li>
+		<li><a href="#section2">セクション2</a></li>
+		<li><a href="#section3">セクション3</a></li>
+	</ul>
 </header>
 ```
 
@@ -157,6 +157,10 @@ var obj = new elevator_scroll('#elevator_scroll', {
 <details>
 
 <summary>スクロールアニメーションの速度を設定</summary>
+
+__速度(単位)__
+
+animateSpeed: (設定値) * 1000ミリ秒
 
 ```javascript
 var obj = new elevator_scroll('#elevator_scroll', {
@@ -194,3 +198,8 @@ var obj = new elevator_scroll('#elevator_scroll', {
 (デフォルト値:100)
 
 </details>
+
+---
+
+こちらを利用したホームページ作成は
+[https://next-code.jp/contact](https://next-code.jp/contact) からお問い合わせ下さい
