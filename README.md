@@ -202,4 +202,4 @@ var obj = new elevator_scroll('#elevator_scroll', {
 ---
 
 こちらを利用したホームページ作成は
-[https://next-code.jp/contact](https://next-code.jp/contact) からお問い合わせ下さい
+[https://next-code.jp/contact](https://next-code.jp/contact) からお問い合わせ下さい。
