@@ -43,8 +43,8 @@ __elevator_scroll.js__, __elevator_scroll.css__ の2つのファイルをイン�
 以下のように読み込みします。
 
 ```html
-<link rel = "stylesheet" type = "text/css" href = "elevator_scroll.css">
-<script type = "text/javascript" src = "elevator_scroll.js">
+<link rel="stylesheet" type="text/css" href="elevator_scroll.css">
+<script type="text/javascript" src="elevator_scroll.js">
 ```
 
 ### CDN
