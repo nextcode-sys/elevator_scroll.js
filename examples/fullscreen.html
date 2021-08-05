@@ -213,7 +213,12 @@
 		sectionsName: ['section1', 'section2', 'section3'],
 		sectionsColor: ['#6e5aff', '#f8b500', '#53beb7'],
 		menu:'#nav',
-		activeMenu: ['section1', 'section2', 'section3']
+		activeMenu: ['section1', 'section2', 'section3'],
+		onPageChange: function () {
+			let slider = document.querySelectorAll('.slider ul');
+			let sliderScrollX = slider[0].style.transform;
+			slider[1].style.transform = `${sliderScrollX}`;
+		}
 	});
 
 	slider = document.querySelector('.slider');
