@@ -199,6 +199,26 @@ var obj = new elevator_scroll('#elevator_scroll', {
 
 </details>
 
+### onPageChange
+<details>
+<summary>スクロール時に行いたい処理を設定</summary>
+
+```javascript
+var obj = new elevator_scroll('#elevator_scroll', {
+	onPageChange: function () {
+	//	ここに行いたい処理を記述
+	}
+});
+```
+
+スライダーを使用した場合などにスワイプした内容が
+
+スクロール時に右画面だけ反映されない現象を解消する際に使用したりします。
+
+[fullscreen.html](https://github.com/nextcode-sys/elevator_scroll/blob/main/examples/fullscreen.html) にて使用しているのでご参考ください。
+
+</details>
+
 ---
 
 こちらを利用したホームページ作成は
