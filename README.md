@@ -44,7 +44,7 @@ __elevator_scroll.js__, __elevator_scroll.css__ の2つのファイルをイン�
 
 ```html
 <link rel="stylesheet" type="text/css" href="elevator_scroll.css">
-<script type="text/javascript" src="elevator_scroll.js">
+<script type="text/javascript" src="elevator_scroll.js"></script>
 ```
 
 ### CDN
