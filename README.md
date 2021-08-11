@@ -2,7 +2,7 @@
 
 ---
 
-[]()
+![elevator_scroll](examples/images/elevator_scroll.png)
 
 ---
 
