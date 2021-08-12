@@ -49,6 +49,12 @@ __elevator_scroll.js__, __elevator_scroll.css__ の2つのファイルをイン�
 
 ### CDN
 CDNを使用してファイルのロードを行う場合
+以下のように読み込みします。
+
+```html
+<link rel="stylesheet" href="https://elevator-scroll.next-code.jp/elevator_scroll.css">
+<script src="https://elevator-scroll.next-code.jp/elevator_scroll.js"></script>
+```
 
 <br>
 
